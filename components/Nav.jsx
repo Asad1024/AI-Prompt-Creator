@@ -90,21 +90,21 @@ const Nav = () => {
                   <Link
                   href="/profile"
                   className="dropdown_link"
-                  onClick={() => setToggleDropDownI(false)}
+                  onClick={() => setToggleDropDown(false)}
                   >
                     My Profile
                   </Link>
                   <Link
                   href="/create-prompt"
                   className="dropdown_link"
-                  onClick={() => setToggleDropDownI(false)}
+                  onClick={() => setToggleDropDown(false)}
                   >
                     Create Prompt
                   </Link>
                   <button
                   type="button"
                   onClick={() => {
-                    setToggleDropDownI(false)
+                    setToggleDropDown(false)
                     signOut()
                   }}
                   className="mt-5 w-full black_btn"
